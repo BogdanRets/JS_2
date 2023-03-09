@@ -1,4 +1,5 @@
-
+document.write("<br>");
+document.write("<br>");
 let Num = parseInt(prompt("Якщо змінна 'a' дорівнює 10, то буде виведено 'Вірно', в інших випадках буде 'Ви ввели невірне значення ('"));
 if (10 === Num){
     document.write("!!!Вірно!!!")
@@ -141,6 +142,9 @@ if( age <= 35 && age > 18){
     window.location.href = 'https://www.uz.gov.ua/'; ( 2 * 1000);
 }else if(age < 0){
     document.write("Дочекайтесь поки ви заспавнетесь)");
-}else{
-    document.write("Ваш вік більший 60 років");
+}else if(age > 60){
+    document.write("Ваш вік більший 60 років)");
+}
+else{
+    document.write("Error404");
 }
